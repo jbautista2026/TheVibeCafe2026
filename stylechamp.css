@@ -1,0 +1,289 @@
+<style>
+        body{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+        body{
+            background-image: url(https://pbs.twimg.com/media/E1-92nSVIAUjqIx?format=jpg&name=4096x4096);
+            height: 100%;
+            margin: 0px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header {
+            background-color:black;
+            font-family: 'Montserrat', sans-serif;
+            padding: 2px;
+        }
+        #stylechampheader {
+            float: left;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: x-large;
+        }
+        #cafename {
+            text-align: center;
+            padding: 0px;
+            font-size: 250%;
+            text-shadow:
+            0 0 7px #fff,
+            0 0 10px rgb(97, 192, 255),
+            0 0 21px rgb(0, 173, 253),
+            0 0 42px rgb(0, 153, 255),
+            0 0 82px rgb(0, 153, 255),
+            0 0 92px rgb(0, 153, 255),
+            0 0 102px rgb(0, 153, 255),
+            0 0 151px rgb(0, 153, 255);
+            color: white;
+        }
+        header ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 5px;
+                overflow: hidden;
+                background-color: black;
+                color: white;
+                transition: all 150ms;
+                box-shadow:
+                0px 0px 50px 50px black,
+                0px 0px 60px 60px black,
+                0px 0px 90px 90px black;
+        }
+        header li {
+                float: left;
+                text-align: center;
+                padding: 5px;
+                padding-top: 36.5px;
+                size: 200%;
+                width: 200px;
+                transition: all 150ms;
+                font-size: 125%;
+               }       
+        header ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: all 150ms;
+        }
+        header ul li a:first-of-type {
+            padding: 0px;
+        }
+        header ul li:first-of-type {
+            padding: 0px;
+        }
+        header ul li:hover {
+            font-weight: bolder;
+            backdrop-filter: blur(2.5px);
+            border-radius: 15px;
+            transition: all 150ms;
+            color: #fff;
+            text-shadow:
+            0 0 7px #fff,
+            0 0 10px rgb(97, 192, 255),
+            0 0 21px rgb(0, 173, 253),
+            0 0 42px rgb(0, 153, 255),
+            0 0 82px rgb(0, 153, 255),
+            0 0 92px rgb(0, 153, 255),
+            0 0 102px rgb(0, 153, 255),
+            0 0 151px rgb(0, 153, 255);
+        }
+        header ul input {
+            padding: 2px;
+            border: none;
+            margin-left: 750px;
+            margin-right: 0px;
+            font-size: 100%;
+            color: white;
+            background-color: black;
+        }
+        .pageSection {
+            background-color: rgb(12, 12, 12);
+            width: 40%;
+            height: 500px;
+            padding: 10px;
+            margin: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            border-radius: 20px;
+            outline: none;
+            float: left;
+            box-shadow:
+            0 0 2px #fff,
+            0 0 2px rgb(97, 192, 255),
+            0 0 3px rgb(62, 178, 255),
+            0 0 5px rgb(0, 153, 255),
+            0 0 8px rgb(0, 153, 255),
+            0 0 15px rgb(0, 153, 255);
+            border: solid white 2px;
+      }
+      h2 {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        color: white
+    }
+    h3 {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        margin: 8px;
+        margin-top: 25px;
+    }
+    p {
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      margin: 8px;
+    }
+    video {
+        display: block;
+        margin: 0px auto;
+        margin-left: 30px;
+        margin-right: 40px;
+        margin-top: 8.5px;
+        height: 500px;
+        width: 875px;
+        float: left;
+    }
+    .DoTM {
+        background-color: rgb(12, 12, 12);
+        width: 94.5%;
+        height: auto;
+        padding: 20px;
+        margin: 40px;
+        margin-left: 1.5%;
+        margin-right: 1.85%;
+        border-radius: 20px;
+        outline: none;
+        float: left;
+        border: solid white 2px;
+        box-shadow:
+        0 0 2px #fff,
+        0 0 2px rgb(97, 192, 255),
+        0 0 3px rgb(62, 178, 255),
+        0 0 5px rgb(0, 153, 255),
+        0 0 8px rgb(0, 153, 255),
+        0 0 15px rgb(0, 153, 255);
+    }
+    .DoTM_Img {
+        float:left;
+        margin-right: 5px;
+    }
+    .DoTM_Name {
+        float:left;
+    }
+    .DoTM_Desc {
+        float:left;
+        width: 80%;
+    }
+    footer {
+        width: auto;
+        float: left;
+        margin-left: 30px;
+    }
+    .firstColumn {
+        float: left;
+        font-size: 150%;
+    }
+    .secondColumn {
+        float: right;
+        font-size: 150%;
+    }
+    .menuAside {
+        height: 1050px;
+        width: 450px;
+        margin: 20px;
+        background-color: rgba(0, 0, 0, 0.69);
+        border-radius: 20px;
+    }
+    #menuDetails {
+        display: block;
+        width: 683px;
+        height: 1050px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        float:left;
+    }
+    #menuImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+    .menuContact {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.69);
+        border-radius: 20px;
+    }
+    h1 {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+    }
+    .menuLabel {
+        font-size: 300%;
+        text-align: center;
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px rgb(97, 192, 255),
+        0 0 21px rgb(0, 173, 253),
+        0 0 42px rgb(0, 153, 255),
+        0 0 82px rgb(0, 153, 255),
+        0 0 92px rgb(0, 153, 255),
+        0 0 102px rgb(0, 153, 255),
+        0 0 151px rgb(0, 153, 255);
+    }
+    .aboutSection {
+        background-color: rgb(12, 12, 12);
+        width: 60%;
+        height: 700px;
+        padding: 10px;
+        margin: 40px;
+        margin-left: 43px;
+        margin-right: 30px;
+        margin-top: 0px;
+        border-radius: 20px;
+        outline: none;
+        font-size: 115%;
+        float: left;
+        box-shadow:
+        0 0 2px #fff,
+        0 0 2px rgb(97, 192, 255),
+        0 0 3px rgb(62, 178, 255),
+        0 0 5px rgb(0, 153, 255),
+        0 0 8px rgb(0, 153, 255),
+        0 0 15px rgb(0, 153, 255);
+        border: solid white 2px;
+    }
+    .aboutAside {
+        background-color: rgb(12, 12, 12);
+        width: 30%;
+        height: 700px;
+        padding: 10px;
+        margin: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        border-radius: 20px;
+        outline: none;
+        float: left;
+        font-size: 115%;
+        box-shadow:
+        0 0 2px #fff,
+        0 0 2px rgb(97, 192, 255),
+        0 0 3px rgb(62, 178, 255),
+        0 0 5px rgb(0, 153, 255),
+        0 0 8px rgb(0, 153, 255),
+        0 0 15px rgb(0, 153, 255);
+        border: solid white 2px;
+    }
+    .loungeImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
